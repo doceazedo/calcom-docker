@@ -1,7 +1,7 @@
 # Use postgres/example user/password credentials
 
 volumes:
-  database-data:
+  calcom-database-data:
 
 networks:
   calcom:
@@ -66,4 +66,5 @@ services:
       - prisma
       - studio
 # END SECTION: Optional use of Prisma Studio.
+
 
